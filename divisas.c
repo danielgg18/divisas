@@ -14,7 +14,7 @@ int main(){
     printf("Ingresa la cantidad en Pesos Mexicanos\n");
     scanf("%f", &fPesos);
 
-  
+  while(fPesos > 0){
         printf("\nSelecciona a que divisa deseas hacer la conversion\n\n");
         printf("\t\t**Divisas**\n");
         printf("\t1) Dolar\n");
@@ -43,6 +43,8 @@ int main(){
             }
         
     
+  }
+    printf("Ingresa una cantidad positiva\n");
 
 return 0;
 
